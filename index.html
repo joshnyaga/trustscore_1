@@ -1,0 +1,114 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trustscore Console</title>
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="body-dash">
+
+    <div id="menu-bars" class="fa fa-bars"></div>
+    <!--header section starts  -->
+    <header class="header-dashboard">
+        <a href="#" class="logo"><span>Trust</span>score</a>
+        <nav class="navbar">
+            <a class="active" href="#dashboard">Dashboard</a>
+            <a href="#dashboard">Loan History</a>
+            <a href="#dashboard">Profile</a>
+            <a href="#dashboard">Help</a>
+            <a href="#dashboard">Notifications</a>
+            <a href="#dashboard">Logout</a>
+            
+        </nav>
+        <div class="follow">
+            <a href="#" class="fa fa-facebook-f"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+        </div>
+    </header>
+    <!--header section stop  -->
+
+    <!-- section starts heree -->
+    <section class="content" id="content">
+        <h1 class="heading">Dashboard</h1>
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fa fa-money"></i>
+                <h3>Loan balance</h3>
+                <p><span>Ksh. </span>0</p>
+            </div>
+
+            <div class="box">
+                <i class="fa fa-money"></i>
+                <h3>Credit limit</h3>
+                <p><span>Ksh. </span>0</p>
+            </div>
+
+            <div class="box">
+                <i class="fa fa-money"></i>
+                <h3>Your Score</h3>
+                <p><span>Ksh. </span>0</p>
+            </div>
+
+            
+        </div>
+        <table class="styled-table">
+            <thead>
+                <tr>
+                    <th>Loan Id</th>
+                    <th>Company</th>
+                    <th>Amount Taken</th>
+                    <th>Amount expected</th>
+                    <th>Date taken</th>
+                    <th>Date expected</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>SOS-1743</td>
+                    <td>Shopokoa</td>
+                    <td>300</td>
+                    <td>375</td>
+                    <td>02/02/2022</td>
+                    <td>02/07/2022</td>
+                    <td>Overdue</td>
+                </tr>
+                <tr class="active-row">
+                    <td>BR-137</td>
+                    <td>Branch</td>
+                    <td>500</td>
+                    <td>576</td>
+                    <td>11/04/2022</td>
+                    <td>12/05/2022</td>
+                    <td>Unpaid</td>
+                </tr>
+                <tr>
+                    <td>TL-1435</td>
+                    <td>Tala</td>
+                    <td>700</td>
+                    <td>780</td>
+                    <td>04/05/2022</td>
+                    <td>02/07/2022</td>
+                    <td>Paid</td>
+                </tr>
+               
+                <!-- and so on... -->
+            </tbody>
+        </table>
+    </section>
+    <!-- section ends heree -->
+
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+</body>
+</html>
